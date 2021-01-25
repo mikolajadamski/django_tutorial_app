@@ -1,7 +1,9 @@
 {% extends 'polls\base.html' %}
 
+{% load static %}
+
 {% block content %}
-<h1>{{ question.question_text }}</h1>
+<h1 class="index_header">{{ question.question_text }}</h1>
 
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 

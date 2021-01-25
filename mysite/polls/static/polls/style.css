@@ -1,0 +1,30 @@
+li a {
+    color: black;
+    font-family:fantasy;
+}
+body {
+    background: white url("images/background.png") no-repeat;
+}
+
+li.question_block {
+    display: block;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px 10px 10px 10px;
+    padding:20px;
+    letter-spacing: 1px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.index_header {
+    color:rgb(88, 68, 97);
+    font-size: 40px;
+    font-style:italic;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
